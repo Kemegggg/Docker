@@ -111,23 +111,7 @@ http://localhost:8080
 ## Отображение через браузер:
 <img width="618" height="291" alt="image-32" src="https://github.com/user-attachments/assets/0724bbb3-3ebe-433e-b573-e80059eeb061" />
 
-{
-  "name" : "499d1975557e",
-  "cluster_name" : "docker-cluster",
-  "cluster_uuid" : "Qdxq6GolRi23SIlOww1_KQ",
-  "version" : {
-    "number" : "8.12.0",
-    "build_flavor" : "default",
-    "build_type" : "docker",
-    "build_hash" : "1665f706fd9354802c02146c1e6b5c0fbcddfbc9",
-    "build_date" : "2024-01-11T10:05:27.953830042Z",
-    "build_snapshot" : false,
-    "lucene_version" : "9.9.1",
-    "minimum_wire_compatibility_version" : "7.17.0",
-    "minimum_index_compatibility_version" : "7.0.0"
-  },
-  "tagline" : "You Know, for Search"
-} 
+[Перейти к JSON файлу](result.JSON)
 
 ---
 
