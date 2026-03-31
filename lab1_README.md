@@ -111,7 +111,7 @@ http://localhost:8080
 ## Отображение через браузер:
 <img width="618" height="291" alt="image-32" src="https://github.com/user-attachments/assets/0724bbb3-3ebe-433e-b573-e80059eeb061" />
 
-[Перейти к JSON файлу](result.JSON)
+[Перейти к JSON файлу](result.json)
 
 ---
 
