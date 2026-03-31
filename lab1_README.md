@@ -106,8 +106,6 @@ http://localhost:8080
 
 Для проверки работоспособности Elasticsearch был выполнен HTTP-запрос к сервису. В результате был получен JSON-ответ с информацией о кластере и версии Elasticsearch, что подтверждает корректную работу контейнера.
 
-<img width="499" height="240" alt="image-31" src="https://github.com/user-attachments/assets/b9df1741-9965-459e-a02d-a2d3a9e7a0f5" />
-
 <img width="499" height="240" alt="image-31" src="https://github.com/user-attachments/assets/c6290b49-d40d-47cd-a22d-5e771ce5084d" />
 
 ## Отображение через браузер:
