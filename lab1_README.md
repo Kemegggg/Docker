@@ -32,7 +32,7 @@
 Для выполнения лабораторной работы была использована операционная система macOS. В качестве среды контейнеризации установлен Docker Desktop, обеспечивающий запуск Docker Engine и работу с контейнерами. Все действия выполнялись через терминал.
 
 Скриншот: Проверка работы Docker Desktop 
-![Скриншот]( https://miro.com/app/board/uXjVGr0Oyiw=/?moveToWidget=3458764665900892136&cot=14 )
+![Скриншот](<img width="596" height="428" alt="image-22" src="https://github.com/user-attachments/assets/1b71dcc1-5555-478a-a8ba-0a7a3ce1f96e" />)
 
 ---
 
