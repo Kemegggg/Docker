@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f7f7f7;
+            color: #222;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #1f4e79;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: #eef4fa;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 100%;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background: #1f4e79;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Market Static Report</h1>
+        <p><strong>Ticker:</strong> AAPL</p>
+
+        <h2>Key Metrics</h2>
+        <div class="metrics">
+            <div class="card"><strong>Average Close Price:</strong> 99.36</div>
+            <div class="card"><strong>Maximum Close Price:</strong> 105.38</div>
+            <div class="card"><strong>Minimum Close Price:</strong> 92.94</div>
+            <div class="card"><strong>Average Volume:</strong> 6153</div>
+        </div>
+
+        <h2>Price Chart</h2>
+        <img src="chart.png" alt="Stock Price Chart">
+
+        <h2>Detailed Data</h2>
+        <table class="dataframe table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>date</th>
+      <th>ticker</th>
+      <th>open_price</th>
+      <th>close_price</th>
+      <th>volume</th>
+      <th>daily_change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025-01-01</td>
+      <td>AAPL</td>
+      <td>98.75</td>
+      <td>99.40</td>
+      <td>7863</td>
+      <td>0.65</td>
+    </tr>
+    <tr>
+      <td>2025-01-02</td>
+      <td>AAPL</td>
+      <td>104.51</td>
+      <td>102.53</td>
+      <td>8916</td>
+      <td>-1.98</td>
+    </tr>
+    <tr>
+      <td>2025-01-03</td>
+      <td>AAPL</td>
+      <td>102.32</td>
+      <td>99.71</td>
+      <td>9529</td>
+      <td>-2.61</td>
+    </tr>
+    <tr>
+      <td>2025-01-04</td>
+      <td>AAPL</td>
+      <td>100.99</td>
+      <td>103.68</td>
+      <td>1878</td>
+      <td>2.69</td>
+    </tr>
+    <tr>
+      <td>2025-01-05</td>
+      <td>AAPL</td>
+      <td>96.56</td>
+      <td>99.35</td>
+      <td>5887</td>
+      <td>2.79</td>
+    </tr>
+    <tr>
+      <td>2025-01-06</td>
+      <td>AAPL</td>
+      <td>96.56</td>
+      <td>98.41</td>
+      <td>5859</td>
+      <td>1.85</td>
+    </tr>
+    <tr>
+      <td>2025-01-07</td>
+      <td>AAPL</td>
+      <td>95.58</td>
+      <td>94.41</td>
+      <td>7331</td>
+      <td>-1.17</td>
+    </tr>
+    <tr>
+      <td>2025-01-08</td>
+      <td>AAPL</td>
+      <td>103.66</td>
+      <td>101.25</td>
+      <td>9571</td>
+      <td>-2.41</td>
+    </tr>
+    <tr>
+      <td>2025-01-09</td>
+      <td>AAPL</td>
+      <td>101.01</td>
+      <td>102.12</td>
+      <td>9684</td>
+      <td>1.11</td>
+    </tr>
+    <tr>
+      <td>2025-01-10</td>
+      <td>AAPL</td>
+      <td>102.08</td>
+      <td>101.72</td>
+      <td>8208</td>
+      <td>-0.36</td>
+    </tr>
+    <tr>
+      <td>2025-01-11</td>
+      <td>AAPL</td>
+      <td>95.21</td>
+      <td>92.94</td>
+      <td>6276</td>
+      <td>-2.27</td>
+    </tr>
+    <tr>
+      <td>2025-01-12</td>
+      <td>AAPL</td>
+      <td>104.70</td>
+      <td>104.67</td>
+      <td>3062</td>
+      <td>-0.03</td>
+    </tr>
+    <tr>
+      <td>2025-01-13</td>
+      <td>AAPL</td>
+      <td>103.32</td>
+      <td>100.53</td>
+      <td>1064</td>
+      <td>-2.79</td>
+    </tr>
+    <tr>
+      <td>2025-01-14</td>
+      <td>AAPL</td>
+      <td>97.12</td>
+      <td>99.58</td>
+      <td>9006</td>
+      <td>2.46</td>
+    </tr>
+    <tr>
+      <td>2025-01-15</td>
+      <td>AAPL</td>
+      <td>96.82</td>
+      <td>95.37</td>
+      <td>3568</td>
+      <td>-1.45</td>
+    </tr>
+    <tr>
+      <td>2025-01-16</td>
+      <td>AAPL</td>
+      <td>96.83</td>
+      <td>97.81</td>
+      <td>6463</td>
+      <td>0.98</td>
+    </tr>
+    <tr>
+      <td>2025-01-17</td>
+      <td>AAPL</td>
+      <td>98.04</td>
+      <td>96.91</td>
+      <td>3027</td>
+      <td>-1.13</td>
+    </tr>
+    <tr>
+      <td>2025-01-18</td>
+      <td>AAPL</td>
+      <td>100.25</td>
+      <td>100.37</td>
+      <td>3695</td>
+      <td>0.12</td>
+    </tr>
+    <tr>
+      <td>2025-01-19</td>
+      <td>AAPL</td>
+      <td>99.32</td>
+      <td>99.60</td>
+      <td>6258</td>
+      <td>0.28</td>
+    </tr>
+    <tr>
+      <td>2025-01-20</td>
+      <td>AAPL</td>
+      <td>97.91</td>
+      <td>96.02</td>
+      <td>6618</td>
+      <td>-1.89</td>
+    </tr>
+    <tr>
+      <td>2025-01-21</td>
+      <td>AAPL</td>
+      <td>101.12</td>
+      <td>103.94</td>
+      <td>7736</td>
+      <td>2.82</td>
+    </tr>
+    <tr>
+      <td>2025-01-22</td>
+      <td>AAPL</td>
+      <td>96.39</td>
+      <td>98.04</td>
+      <td>1391</td>
+      <td>1.65</td>
+    </tr>
+    <tr>
+      <td>2025-01-23</td>
+      <td>AAPL</td>
+      <td>97.92</td>
+      <td>100.56</td>
+      <td>6892</td>
+      <td>2.64</td>
+    </tr>
+    <tr>
+      <td>2025-01-24</td>
+      <td>AAPL</td>
+      <td>98.66</td>
+      <td>101.03</td>
+      <td>4561</td>
+      <td>2.37</td>
+    </tr>
+    <tr>
+      <td>2025-01-25</td>
+      <td>AAPL</td>
+      <td>99.56</td>
+      <td>100.15</td>
+      <td>7184</td>
+      <td>0.59</td>
+    </tr>
+    <tr>
+      <td>2025-01-26</td>
+      <td>AAPL</td>
+      <td>102.85</td>
+      <td>105.38</td>
+      <td>4099</td>
+      <td>2.53</td>
+    </tr>
+    <tr>
+      <td>2025-01-27</td>
+      <td>AAPL</td>
+      <td>97.00</td>
+      <td>94.53</td>
+      <td>7278</td>
+      <td>-2.47</td>
+    </tr>
+    <tr>
+      <td>2025-01-28</td>
+      <td>AAPL</td>
+      <td>100.14</td>
+      <td>98.32</td>
+      <td>9392</td>
+      <td>-1.82</td>
+    </tr>
+    <tr>
+      <td>2025-01-29</td>
+      <td>AAPL</td>
+      <td>100.92</td>
+      <td>98.19</td>
+      <td>4104</td>
+      <td>-2.73</td>
+    </tr>
+    <tr>
+      <td>2025-01-30</td>
+      <td>AAPL</td>
+      <td>95.46</td>
+      <td>94.41</td>
+      <td>8215</td>
+      <td>-1.05</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</body>
+</html>
