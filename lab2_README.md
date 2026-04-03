@@ -164,7 +164,7 @@ print("DONE")
 <img width="1309" height="816" alt="image-39" src="https://github.com/user-attachments/assets/9dbb1153-7405-48b0-8c61-7302c87cd6a8" />
 <img width="662" height="803" alt="image-40" src="https://github.com/user-attachments/assets/4ca01220-4da4-4886-8fe6-2184af603695" />
 
-[Перейти к HTML отчету](Stock Market Report.html)
+[Перейти к HTML отчету]( Stock Market Report.html )
 
 ### 7. Создание Dockerfile
 
