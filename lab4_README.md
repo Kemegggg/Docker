@@ -58,6 +58,12 @@ kubectl get nodes
 
 <img width="1211" height="679" alt="image-66" src="https://github.com/user-attachments/assets/4694f918-c291-48c8-af84-0cb774efe9c3" />
 
+### Реализация backend (FastAPI)
+
+Backend реализует API для работы с расходами (Expense Tracker), включая:
+- добавление записи (POST /expenses)
+- получение всех записей (GET /expenses)
+
 
 <img width="1203" height="692" alt="image-67" src="https://github.com/user-attachments/assets/078a639b-f591-4559-800d-074f4162c78f" />
 
