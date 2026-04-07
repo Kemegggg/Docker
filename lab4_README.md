@@ -13,11 +13,42 @@
 Применить полученные знания по созданию и развертыванию трехзвенного приложения (Frontend + Backend + Database) в кластере Kubernetes. Научиться организовывать взаимодействие между микросервисами.
 
 ---
+### Проверка установленных инструментов (Docker и kubectl)
 
+На данном этапе была проверена корректность установки Docker и kubectl.
+
+```
+bash
+docker --version
+kubectl version --client
+```
 <img width="355" height="129" alt="image-62" src="https://github.com/user-attachments/assets/969afae6-7b41-4b19-8190-94d1add1f0c0" />
+
+
+---
+
+
+### Проверка Kubernetes кластера
+
+Проверка состояния кластера Kubernetes показала, что узел успешно запущен и находится в статусе Ready.
+
+```
+bash
+kubectl get nodes
+```
 
 <img width="425" height="86" alt="image-63" src="https://github.com/user-attachments/assets/d3f28d9d-a0a9-4423-9c43-eb41bd43fa23" />
 
+---
+
+### Создание структуры проекта и файлов
+
+Были созданы основные файлы backend и frontend приложения, включая:
+- requirements.txt
+- main.py
+- Dockerfile (backend)
+- app.py
+- Dockerfile (frontend)
 
 <img width="528" height="66" alt="image-64" src="https://github.com/user-attachments/assets/a749e507-2776-4b0d-9a8b-b17a1f1a4305" />
 
